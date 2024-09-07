@@ -34,8 +34,10 @@ int main()
 
     //Se calcula el total de las ganancias
     GrossBox = (adultfare * AdultTickets) + (childfare * ChildTickets); 
+
     //Se calcula cuanto de las ganancias es para el cine
     NetBox = GrossBox * distripercent; 
+    
     //Se calcula cuanto de las ganancias so para el distribudor
     DistriProfit = GrossBox - NetBox; 
 
